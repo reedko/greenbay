@@ -13,14 +13,14 @@ import { SiNintendo } from "react-icons/si";
 
 import { BsGlobe } from "react-icons/bs";
 
-import { Platform } from "../hooks/usePlatforms";
+//import { Platform } from "../hooks/usePlatforms";
 import { HStack, Icon, Text } from "@chakra-ui/react";
 import { IconType } from "react-icons";
 
 interface Props {
-  platforms: Platform[];
+  //platforms: Platform[];
 }
-
+/* 
 const PlatformIconList = ({ platforms }: Props) => {
   const iconMap: { [key: string]: IconType } = {
     pc: FaWindows,
@@ -41,5 +41,5 @@ const PlatformIconList = ({ platforms }: Props) => {
     </HStack>
   );
 };
-
-export default PlatformIconList;
+ */
+//export default PlatformIconList;

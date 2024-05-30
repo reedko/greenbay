@@ -2,6 +2,8 @@ import React, { ReactNode } from "react";
 import { AirtableData } from "./hooks/useAirtable";
 import ProductCard from "./components/ProductCard";
 import ProductGrid from "./components/ProductGrid";
+import { GridItem } from "@chakra-ui/react";
+import NavBar from "./components/NavBar";
 
 function App() {
   const { records, loading } = AirtableData();
@@ -12,6 +14,9 @@ function App() {
 
   return (
     <div>
+      <GridItem area="nav">
+        <NavBar />
+      </GridItem>
       <ProductGrid />
 
       <ul>

@@ -25,22 +25,22 @@ function App() {
           lg: "200px 1fr",
         }}
       >
-        <GridItem area="nav">
+        {/*  <GridItem area="nav">
           <NavBar
             onSearch={(searchText) =>
               setGameQuery({ ...gameQuery, searchText })
             }
           />
-        </GridItem>
+        </GridItem> */}
 
         <Show above="lg">
           <GridItem area="aside" paddingX={5}>
-            <ProductList
+            {/* <ProductList
               selectedGenreId={gameQuery.genreId}
               onSelectGenre={(genre) =>
                 setGameQuery({ ...gameQuery, genreId: genre.id })
               }
-            />
+            /> */}
           </GridItem>
         </Show>
         <ProductGrid />

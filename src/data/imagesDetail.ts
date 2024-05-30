@@ -1,4 +1,4 @@
-const Images= [
+export const Images= [
     {
         id: "attXMTK6Jeo5ldplW",
         width: 444,
